@@ -1,0 +1,77 @@
+/*=========================================================
+================      LAYOUT STYLES       =================
+=========================================================*/
+
+body {
+  display: flex;
+  align-items: flex-start;
+
+  @include media-breakpoint-up(md) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// Article component styles
+
+.article {
+  &__image {
+    @include media-breakpoint-up(sm) {
+      flex: 1 0 39%;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__author {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+  }
+
+  &__social-share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @include media-breakpoint-up(sm) {
+    display: flex;
+    column-gap: pxToRem(40);
+  }
+}
+
+// Social icons styles
+.social-icons {
+  display: flex;
+  align-items: center;
+  column-gap: pxToRem(22);
+  row-gap: 1rem;
+
+  @include media-breakpoint-up(sm) {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+  }
+
+  &__icons {
+    display: flex;
+    column-gap: 1rem;
+    row-gap: 0.5rem;
+
+    @include media-breakpoint-up(sm) {
+      flex-direction: column;
+    }
+
+    @include media-breakpoint-up(lg) {
+      flex-direction: row;
+    }
+  }
+}
