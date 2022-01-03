@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/article-preview-component-with-sass-flexbox-and-bem-o324zMUAX)
+- Live Site URL: [Live Site](https://ascecent.github.io/fem-article-preview-component/)
 
 ## My process
 
